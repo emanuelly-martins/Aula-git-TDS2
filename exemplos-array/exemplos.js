@@ -27,6 +27,11 @@ let cores = ["Vermelho", "Azul", "Verde"];
 cores.push ("Amarelo");
 console.log (carros);
 
+// Removendo o último elemnto do array
+let carros = ["Fusca", "Gol", "Civic", "Corolla"];
+carros.pop ();
+console.log (carros);
+
 // Removendo o primeiro elemento do array
 let cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"];
 cidades.shift ();
@@ -36,3 +41,9 @@ console.log (cidades);
 let paises = ["Brasil", "Argentina", "Chile"];
 paises.unshift ("Uruguai");
 console.log (paises);
+
+// Mostrando todos os elementos do array com for
+let frutas = ["Maçã", "Banana", "Laranja", "Uva"];
+for (let i = 0; i < frutas.length; i++){
+    console.log (frutas)
+}
