@@ -1,3 +1,33 @@
 // Emanuelly Martins Ramos 💕
 
 // Exemplo de array
+
+// Criando arrays com nomes de frutas e sucos
+let sucos = ["Laranja", "Uva", "Abacaxi", "Manga", "Maracujá"];
+console.log (sucos[0]);
+
+// Criando um array de números
+let numeros = [1, 2, 3, 4, 5];
+console.log (numeros[2]);
+
+// Acessando um elemento específico do array
+let animais = ["Cachorro", "Gato", "Pássaro", "Peixe"];
+
+// Alterando um elemento do array
+let times = ["Flamengo", "Palmeiras", "São Paulo", "Corinthians"];
+times[2] = "Vasco";
+console.log (times);
+
+// Descobrindo o tamanho do array
+let games = ["FIFA", "Call of Duty", "Minecraft", "Fortnite"];
+console.log (games.length);
+
+// Adicionando um elemento ao final do array
+let cores = ["Vermelho", "Azul", "Verde"];
+cores.push ("Amarelo");
+console.log (carros);
+
+// Removendo o primeiro elemento do array
+let cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"];
+cidades.shift ();
+console.log (cidades);
