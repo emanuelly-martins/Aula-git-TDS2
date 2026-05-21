@@ -31,3 +31,8 @@ console.log (carros);
 let cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"];
 cidades.shift ();
 console.log (cidades);
+
+// Adicionando um elemento no início do array
+let paises = ["Brasil", "Argentina", "Chile"];
+paises.unshift ("Uruguai");
+console.log (paises);
